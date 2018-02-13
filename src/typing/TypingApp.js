@@ -27,7 +27,7 @@ class TypingApp extends Component {
     return (
       <div className="App">
         <div className="App-header">
-        <img className ="girl2" src={"../girl2.jpg"} style={{width:300}} />
+        <img className ="girl2" src={"./girl2.jpg"} style={{width:300}} />
           <h2>You are an average uWaterloo CS student without any special talent. One day,
           as you nonchalently walk towards your CS136 class, you spot the cutest asian girl you have ever
           seen. She smiles at you. THIS IS A ONCE IN A LIFETIME CHANCE.</h2>
