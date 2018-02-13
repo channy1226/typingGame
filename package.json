@@ -2,6 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://channy1226.github.io",
   "dependencies": {
     "react": "^16.2.0",
     "react-addons-css-transition-group": "^15.6.2",
