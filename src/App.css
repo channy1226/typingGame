@@ -1,0 +1,77 @@
+
+.Background{
+/* Set rules to fill background */
+background-size: contain;
+background-repeat: no-repeat;
+background-attachment: fixed;
+overflow:scroll;
+} /*bg need fix size and all */
+
+.Intro {
+  height: 550px; /*change this to fit screen */
+  display: flex;
+  align-items: center;
+  margin-left: 15%;
+  margin-bottom: 50px;
+ }
+
+ .Pictures {
+   margin-top:30px;
+   margin-left: 20%;
+   margin-right: 5%;
+  }
+
+ .projectsWall {
+   height: auto; /*change this to fit screen */
+   display: flex;
+   margin-left: 22%;
+   font-size: 1.5em;
+   font-family: courier New;
+   width:1000px;
+   margin-bottom: -20px;
+ }
+.textWall {
+  font-size: 1.5em;
+  font-family: courier New;
+  margin-left: 2%;
+  width:700px;
+}
+.App-intro {
+  font-size: large;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    width: 800px;
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 40%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: lightgrey;
+    font-family: Monaco;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: black;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
