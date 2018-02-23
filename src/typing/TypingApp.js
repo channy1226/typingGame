@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Typing from './typing.js';
 import Typing2 from './typing2.js';
 import Typing3 from './typing3.js';
-import './App.css';
+import './TypingApp.css';
 
 class TypingApp extends Component {
   constructor() {
@@ -25,8 +25,8 @@ class TypingApp extends Component {
   }
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
+      <div className="TypingApp">
+        <div className="TypingApp-header">
         <img className ="girl2" src={"./girl2.jpg"} style={{width:300}} />
           <h2>You are an average uWaterloo CS student without any special talent. One day,
           as you nonchalently walk towards your CS136 class, you spot the cutest asian girl you have ever

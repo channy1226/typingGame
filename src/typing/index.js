@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import TypingApp from './TypingApp';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <TypingApp />,
   document.getElementById('root')
 );

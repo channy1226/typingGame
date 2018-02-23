@@ -1,46 +1,18 @@
-.App {
+.TypingApp {
   text-align: center;
+
 }
 
-.App-header img {
-  float: left;
-}
 
-.App-header {
-    display: block;
-    left: 50%;
-    margin-left: -420px;
-}
-
-.App-header h2 {
-  position: relative;
-  width: 750px;
-  text-align: justify;
-  top: 50%;
-   transform: translate(0, -50%)
-}
-
-.App-header {
-  background-color: white;
-  height: 300px;
-  padding: 20px;
-  color: black;
-  position: relative;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-* {
+.TypingApp * {
   box-sizing: border-box;
 }
-body {
+.TypingApp body {
   background: white;
   color: #000000;
   font-family: 'Raleway', sans-serif;
 }
-a {
+.TypingApp a {
   color: #7c0d26;
   display: block;
   margin: 0 auto;
@@ -49,9 +21,47 @@ a {
   transition: all 300ms ease-in-out;
   font-size: 1rem;
 }
-a:hover {
+
+.TypingApp a:hover {
   color: #e26a85;
 }
+
+.TypingApp p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.TypingApp-header img {
+  float: left;
+}
+
+.TypingApp-header {
+    display: block;
+    left: 50%;
+    margin-left: -420px;
+}
+
+.TypingApp-header h2 {
+  position: relative;
+  width: 750px;
+  text-align: justify;
+  top: 50%;
+   transform: translate(0, -50%)
+}
+
+.TypingApp-header {
+  background-color: white;
+  height: 300px;
+  padding: 20px;
+  color: black;
+  position: relative;
+}
+
+.TypingApp-intro {
+  font-size: large;
+}
+
+
 .serif {
   font-family: 'Lora', serif;
 }
@@ -120,10 +130,7 @@ a:hover {
     font-size: 4rem;
   }
 }
-p {
-  font-size: 1.4rem;
-  text-align: center;
-}
+
 .button {
   background: transparent;
   border: 2px solid #000000;
